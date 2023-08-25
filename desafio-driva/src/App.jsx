@@ -1,11 +1,14 @@
-import { useState } from 'react'
+import { Fragment, useState } from 'react'
 import Header from './components/Header'
+import CompanyList from './components/CompanyList'
 
 function App() {
 
   return (
-    <><Header />
-    </>
+    <Fragment>
+      <Header />
+      <CompanyList />
+    </Fragment>
   )
 }
 

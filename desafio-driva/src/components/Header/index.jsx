@@ -1,6 +1,7 @@
 import React from 'react';
 import { 
-  HeaderArea, HeaderTitle, 
+  HeaderArea, 
+  HeaderTitle, 
 } from './styleHeader';
 
 function Header() {
