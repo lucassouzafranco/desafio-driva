@@ -25,13 +25,13 @@ function Header() {
 
         <UsefulLinks>
             <Link href='/'>
-              <BsFillCloudFill />
+              <BsFillCloudFill className='icon'/>
             </Link>
             <Link href='/'>
-              <BsFillSunFill />
+              <BsFillSunFill className='icon'/>
             </Link>
             <Link href='https://github.com/lucassouzafranco/desafio-driva'>
-              <BsGithub />
+              <BsGithub className='icon' />
             </Link>
         </UsefulLinks>
         
