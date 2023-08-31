@@ -1,15 +1,18 @@
-import { Fragment, useState } from 'react'
-import Header from './components/Header'
-import CompanyList from './components/CompanyList'
+import { Fragment, useState } from 'react';
+import Header from './components/Header';
+import CompanyList from './components/CompanyList';
+import { BrowserRouter } from 'react-router-dom'
 
 function App() {
 
   return (
     <Fragment>
-      <Header />
-      <CompanyList />
+      <BrowserRouter>
+        <Header />
+        <CompanyList />
+      </BrowserRouter>
     </Fragment>
   )
 }
 
-export default App
+export default App;
