@@ -1,0 +1,54 @@
+{
+  "companies": [
+    {
+      "name": "Accenture",
+      "path": "src/assets/image/accenture.png",
+      "description": "Consultoria e serviços em tecnologia."
+    },
+    {
+      "name": "Adobe",
+      "path": "src/assets/image/adobe.png",
+      "description": "Software e soluções criativas."
+    },
+    {
+      "name": "Amazon",
+      "path": "src/assets/image/amazon.png",
+      "description": "Comércio eletrônico e serviços em nuvem."
+    },
+    {
+      "name": "American Express",
+      "path": "src/assets/image/americanexpress.png",
+      "description": "Serviços financeiros e cartões de crédito."
+    },
+    {
+      "name": "Apple",
+      "path": "src/assets/image/apple.png",
+      "description": "Produtos eletrônicos e software."
+    },
+    {
+      "name": "Cisco",
+      "path": "src/assets/image/cisco.png",
+      "description": "Tecnologias de redes e comunicação."
+    },
+    {
+      "name": "HP",
+      "path": "src/assets/image/hp.png",
+      "description": "Computadores e impressoras."
+    },
+    {
+      "name": "Nvidia",
+      "path": "src/assets/image/nvidia.png",
+      "description": "Placas de vídeo e tecnologias de processamento gráfico."
+    },
+    {
+      "name": "Salesforce",
+      "path": "src/assets/image/salesforce.png",
+      "description": "Plataforma de gerenciamento de relacionamento com o cliente."
+    },
+    {
+      "name": "Visa",
+      "path": "src/assets/image/visa.png",
+      "description": "Serviços financeiros e sistemas de pagamento."
+    }
+  ]
+}

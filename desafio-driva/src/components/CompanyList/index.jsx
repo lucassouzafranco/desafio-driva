@@ -9,7 +9,7 @@ import {
   Name
 } from './styleCompanyList';
 
-function CompanyList() {
+const CompanyList = () => {
   return (
     <ContainerCentralizer>
       <ListContainer>

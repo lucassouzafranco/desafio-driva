@@ -51,8 +51,8 @@ export const Link = styled.a`
 
   .icon {
     background-color: transparent;
-    width: 1.7em;
-    height: 1.3em;
+    width: 1.6em;
+    height: 1.2em;
     cursor: pointer;
   }
 `;
