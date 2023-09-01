@@ -2,53 +2,63 @@
   "companies": [
     {
       "name": "Accenture",
-      "path": "src/assets/image/accenture.png",
-      "description": "Consultoria e serviços em tecnologia."
+      "image_path": "src/assets/image/accenture.png",
+      "description": "Consultoria e serviços em tecnologia.",
+      "contato": "https://www.accenture.com"
     },
     {
       "name": "Adobe",
-      "path": "src/assets/image/adobe.png",
-      "description": "Software e soluções criativas."
+      "image_path": "src/assets/image/adobe.png",
+      "description": "Software e soluções criativas.",
+      "contato": "https://www.adobe.com"
     },
     {
       "name": "Amazon",
-      "path": "src/assets/image/amazon.png",
-      "description": "Comércio eletrônico e serviços em nuvem."
-    },
-    {
-      "name": "American Express",
-      "path": "src/assets/image/americanexpress.png",
-      "description": "Serviços financeiros e cartões de crédito."
+      "image_path": "src/assets/image/amazon.png",
+      "description": "Comércio eletrônico e serviços em nuvem.",
+      "contato": "https://www.amazon.com"
     },
     {
       "name": "Apple",
-      "path": "src/assets/image/apple.png",
-      "description": "Produtos eletrônicos e software."
+      "image_path": "src/assets/image/apple.png",
+      "description": "Produtos eletrônicos e software.",
+      "contato": "https://www.apple.com"
     },
     {
       "name": "Cisco",
-      "path": "src/assets/image/cisco.png",
-      "description": "Tecnologias de redes e comunicação."
+      "image_path": "src/assets/image/cisco.png",
+      "description": "Tecnologias de redes e comunicação.",
+      "contato": "https://www.cisco.com"
     },
     {
       "name": "HP",
-      "path": "src/assets/image/hp.png",
-      "description": "Computadores e impressoras."
+      "image_path": "src/assets/image/hp.png",
+      "description": "Computadores e impressoras.",
+      "contato": "https://www.hp.com"
+    },
+    {
+      "name": "Microsoft",
+      "image_path": "src/assets/image/microsoft.png",
+      "description": "Tecnologia e software.",
+      "contato": "https://www.microsoft.com"
     },
     {
       "name": "Nvidia",
-      "path": "src/assets/image/nvidia.png",
-      "description": "Placas de vídeo e tecnologias de processamento gráfico."
+      "image_path": "src/assets/image/nvidia.png",
+      "description": "Placas de vídeo e tecnologias de processamento gráfico.",
+      "contato": "https://www.nvidia.com"
     },
     {
       "name": "Salesforce",
-      "path": "src/assets/image/salesforce.png",
-      "description": "Plataforma de gerenciamento de relacionamento com o cliente."
+      "image_path": "src/assets/image/salesforce.png",
+      "description": "Plataforma de gerenciamento de relacionamento com o cliente.",
+      "contato": "https://www.salesforce.com"
     },
     {
       "name": "Visa",
-      "path": "src/assets/image/visa.png",
-      "description": "Serviços financeiros e sistemas de pagamento."
+      "image_path": "src/assets/image/visa.png",
+      "description": "Serviços financeiros e sistemas de pagamento.",
+      "contato": "https://www.visa.com"
     }
   ]
 }
