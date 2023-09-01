@@ -9,11 +9,13 @@ import {
   Name
 } from './styleCompanyList';
 import axios from 'axios';
+import CompanyProfile from '../CompanyProfile';
 
 const CompanyList = () => {
 
   const [companies, setCompanies] = useState([]);
-  const [click, setClick] = useState(false);
+  const [isClicked, setIsClicked] = useState(false);
+  const [selectedCompany, setSelectedCompany] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -28,29 +30,35 @@ const CompanyList = () => {
     fetchData();
   }, []);
 
-  function handleCompanyButton() {
-
+  function handleCompanyClick(company) {
+    setSelectedCompany(company);
+    setIsClicked(true);
   }
-
+  
+  console.log(selectedCompany);
   return (
     <ContainerCentralizer>
-      <ListContainer>
-        <Title>Lista de empresas</Title>
-        <ListCentralizer>
-          <List>
-            {companies.map((company, index) => (
-              <Company 
-              key={company.id}
-              imagePath={company.image_path}
-              alt={company.name}
-              onClick={handleCompanyButton}
-              >
-                <Name>{company.name}</Name>
-              </Company>
-            ))}
-          </List>
-        </ListCentralizer>
-      </ListContainer>
+      {isClicked === false ?
+        <ListContainer>
+          <Title>Lista de empresas</Title>
+          <ListCentralizer>
+            <List>
+              {companies.map((company, index) => (
+                <Company
+                  key={company.id}
+                  imagePath={company.image_path}
+                  alt={company.name}
+                  onClick={() => handleCompanyClick(company)}
+                >
+                  <Name>{company.name}</Name>
+                </Company>
+              ))}
+            </List>
+          </ListCentralizer>
+        </ListContainer>
+        : 
+        <CompanyProfile company={selectedCompany} />
+    }
     </ContainerCentralizer>
   )
 }
